@@ -1,0 +1,33 @@
+.card{
+    background-color: #020205e7;
+    height: 250px;
+    width: 250px;
+    margin:10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+  }
+
+  .card:hover{
+    transition: 0.5ms;
+    background-color: rgb(216, 178, 81);
+    color: #202020;
+  }
+
+  .images{
+    margin-bottom: 0px;
+  }
+
+  .movieTitle{
+    margin-bottom: 0px;
+  }
+
+  .movieYear{
+    margin-bottom: 0px;
+  }
+
